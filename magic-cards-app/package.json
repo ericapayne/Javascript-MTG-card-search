@@ -1,0 +1,17 @@
+{
+  "name": "magic-cards-app",
+  "version": "1.0.0",
+  "description": "a cli for magic the gathering cards",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Erica Payne",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.2",
+    "magic-cards-api": "file:../magic-cards-api",
+    "superagent": "^7.1.1",
+    "yargs": "^17.4.0"
+  }
+}
